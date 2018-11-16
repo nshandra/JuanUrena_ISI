@@ -19,9 +19,13 @@ public boolean esBisiesto(int año) {
 Restricciones: 
 	- C1 True implica C2, C3, C4, C5 y C6 False
 	- C2 True implica C1, C3, C4, C5 y C6 False
-	
+	- C3 True implica C1, C2, C4, C5 y C6 False
 
 Combinaciones con resultado true: TFFFFF, FTFFFF, FFTFFF, FFFTFF, FFFTTF, FFFTTT.
 
 4. Valores para cada bloque
 	[-1, 0, 1, 4, 100, 400]
+Criterio ACoC: número de tests: 64
+Criterio Each Choice: número de tests 2 (TTTTTT, FFFFFF)
+Criterio PWC: número mínimo de tests 4.
+
