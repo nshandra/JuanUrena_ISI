@@ -23,4 +23,5 @@ Restricciones:
 
 Combinaciones con resultado true: TFFFFF, FTFFFF, FFTFFF, FFFTFF, FFFTTF, FFFTTT.
 
-
+4. Valores para cada bloque
+	[-1, 0, 1, 4, 100, 400]
