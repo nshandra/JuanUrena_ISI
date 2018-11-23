@@ -1,6 +1,6 @@
 package Embotelladora;
 
-public class Embottelladora {
+public class Embotelladora {
 	
 	public static int llenarBotellasGrandes(int grandes, int litros) {
 		while (grandes>0 && litros>=5) {
