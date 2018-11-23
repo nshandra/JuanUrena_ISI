@@ -1,4 +1,4 @@
-package Embotelladora;
+package Embottelladora;
 
 public class Embotelladora {
 	
