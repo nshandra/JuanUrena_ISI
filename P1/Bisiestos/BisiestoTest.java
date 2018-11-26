@@ -10,20 +10,20 @@ public class BisiestoTest {
 		int c=400; //divisible entre 4, entre 100 y entre 400
 
 		@Test 
-		public void TestNoDivisible ()
+		public void testNoDivisible ()
 		{
 			assertFalse("ERROR: año no divisible entre 4",Bisiesto.main(a));
 			
 		}
 		
 		@Test
-		public void TestDivisible4 ()
+		public void testDivisible4 ()
 		{
 			assertTrue("ERROR: año divisible entre 4",Bisiesto.main(b));
 		}
 		
 		@Test
-		public void TestDivisible100 ()
+		public void testDivisible100 ()
 		{
 			assertTrue("ERROR: año divisible entre 4, entre 100 y entre 400",Bisiesto.main(c));
 		}
