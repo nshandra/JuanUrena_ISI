@@ -15,10 +15,10 @@ int d=1900;
 
 @Test public void bisiestoTest()
 {
-	assertTrue("Si bisiesto",Junit.main(a));
-	assertFalse("No bisiesto",Junit.main(b));
-	assertTrue("Si bisiesto",Junit.main(c));
-	assertFalse("No bisiesto",Junit.main(d));
+	assertTrue("Si bisiesto",bisiesto.main(a));
+	assertFalse("No bisiesto",bisiesto.main(b));
+	assertTrue("Si bisiesto",bisiesto.main(c));
+	assertFalse("No bisiesto",bisiesto.main(d));
 }
 	
 
