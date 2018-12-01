@@ -1,0 +1,13 @@
+La versión original de DescuentoBlackFriday: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/BlackFriday/DescuentoBlackFriday-orig.java
+
+Fallos:
+- Su método Precio Final tiene un argumento extra que deriva de la especificación original.
+Solución: tengo que modificar mi test para introducir ese argumento extra.
+Una vez resuelto esto, pasa las pruebas.
+
+La versión de DescuentoBlackFriday modificada: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/BlackFriday/DescuentoBlackFriday.java
+Mi test modificado: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/BlackFriday/DescuentoBlackFridayTest.java
+
+
+
+
