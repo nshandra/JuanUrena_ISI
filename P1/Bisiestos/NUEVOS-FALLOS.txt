@@ -1,0 +1,18 @@
+La versión original de Bisiestos: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/Bisiestos/bisiesto.java
+
+Fallos:
+- Su clase Bisiestos.java es bisiesto.java.
+- No tiene implementado el método esBisiesto, por lo que tengo que modificar mi test.
+Solución: modifico la clase, y en mi test modifico el método.
+
+- No tiene en cuenta la posibilidad de introducir años negativos.
+Lo he encontrado con el test:
+		//Test 2
+	@Test (expected = IllegalArgumentException.class)
+	public void testNegativeYear() {
+		year = -2000;
+		bis.main(year);
+	}
+Solución: modifico Bisiestos para que tenga en cuenta ese caso.
+La versión modificada de Bisiestos: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/Bisiestos/Bisiestos.java
+Mi test modificado: https://github.com/nshandra/JuanUrena_ISI/blob/master/P1/Bisiestos/BisiestosTest.java
