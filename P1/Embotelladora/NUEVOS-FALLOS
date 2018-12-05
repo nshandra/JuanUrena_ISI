@@ -1,0 +1,25 @@
+Fallan test 0,12,18,21.
+
+Test 0: 
+	Entrada: [8,6,22]
+	Resultado esperado: 0 Resultado obtenido: 2
+
+	El metodo llenarBotellasGrandes no tiene en cuenta el caso de que el numero de botellas grandes sea suficiente para abarcar el total.
+
+Test 12: 
+	Entrada: [0,8,1]
+	Resultado esperado: 0 Resultado obtenido: -1
+
+	Misma causa de error, llenarBotellasGrandes.
+
+Test 18: 
+	Entrada: [1,1,0]
+	Resultado esperado: 0 Resultado obtenido: -1
+
+	No es un fallo en si, consideran total = 0 un argumento ilegal.
+
+Test 21: 
+	Entrada: [0,0,0]
+	Resultado esperado: 0 Resultado obtenido: -1
+
+	Mismo caso que test 18.
