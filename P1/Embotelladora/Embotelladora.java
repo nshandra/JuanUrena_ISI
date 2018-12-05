@@ -1,7 +1,7 @@
 public class Embotelladora {
 	
 	public int llenarBotellasGrandes(int grandes, int litros) {
-		while (grandes>0 && litros>=5) {
+		while (grandes>0 && litros>=0) {
 			grandes=grandes-1;
 			litros=litros-5;
 			//System.out.println("Una grande");
@@ -31,7 +31,7 @@ public class Embotelladora {
 			needed=needed+1;
 		//	System.out.println("Una pequeña");
 		}
-		if (total!=0) {
+		if (total > 0) {
 			return -1;
 		}
 		return needed;
